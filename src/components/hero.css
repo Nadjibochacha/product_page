@@ -1,0 +1,94 @@
+#hero{
+    /* background: #FFAFCCFF; */
+}
+
+#hero .main-img{
+    width: 27rem;
+    height: 30rem;
+    border: 2px solid rgb(116, 113, 115);
+    box-shadow: 0 0 8px rgb(116, 113, 115);
+    border-radius: 5px;
+}
+
+#hero .list{
+    width: 27rem;
+    overflow-x: scroll;
+}
+
+
+#hero .list::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+#hero .list span img{
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 4.6rem;
+    border: 2px solid white;
+}
+
+#hero form{
+    border: 2px solid rgb(116, 113, 115);
+    box-shadow: 0 0 8px rgb(116, 113, 115);
+    border-radius: 5px;
+    /* background: #f5f5f5; */
+}
+
+#hero form h2, #hero .comments h2{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 -12px 0;
+    font-weight: bold;
+}
+
+#hero form h2::after , #hero form h2::before, #hero .comments h2::after, #hero .comments h2::before{
+    content: '';
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+
+#hero form input{
+    color: gray;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    padding-right: 10px;
+}
+
+#hero form input:hover{
+    outline: none;
+    border: 2px solid #9E0059FF;
+}
+
+#hero .btn-purp{
+    background: #9E0059FF;
+    border: 1px solid #9E0059FF;
+    color: white;
+    outline: none;
+    font-size: 1.1rem;
+    transition: all 0.4s ease-out;
+}
+#hero .btn-purp:hover{
+    background: transparent;
+    color: black;
+}
+
+#hero .first{
+    margin-right: 30px;
+    position: relative;
+}
+
+#hero .first::after{
+    content: '';
+    width: 130px;
+    height: 3px;
+    background: red;
+    /* color: red; */
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 12px;
+    transform: rotate(-10deg);
+}
