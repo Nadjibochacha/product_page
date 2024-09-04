@@ -12,9 +12,9 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
                     <Nav className="w-100 justify-content-center">
-                    <Nav.Link className="link me-4" href="#about">الصفحة الرئيسية</Nav.Link>
-                    <Nav.Link className="link me-4" href="#skills">التصنيفات</Nav.Link>
-                    <Nav.Link className="link me-4" href="#port">اتصل بنا</Nav.Link>
+                    <Nav.Link className="link me-4" href="https://happylif.store/">الصفحة الرئيسية</Nav.Link>
+                    <Nav.Link className="link me-4" href="https://happylif.store/collections">التصنيفات</Nav.Link>
+                    <Nav.Link className="link me-4" href="https://happylif.store/pages/contact-us">اتصل بنا</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
